@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>잡화상점 - 로그인</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- xeicon -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__logo">
+        <a href="">
+          <img src="image/logo3 copy 2.png" alt="" />
+        </a>
+      </div>
+      <div class="header__navigation">
+        <ul>
+          <li><a href="#none">전체</a></li>
+          <li><a href="#none">문구</a></li>
+          <li><a href="#none">리빙</a></li>
+          <li><a href="#none">책</a></li>
+          <li><a href="#none">콜라보레이션</a></li>
+          <li><a href="#none">명예의 전당</a></li>
+        </ul>
+      </div>
+      <div class="header__login">
+        <a href="#none"><i class="xi-search"></i></a>
+        <a href="#none"><i class="xi-cart-o"></i></a>
+        <a href="#none"><i class="xi-log-in"></i></a>
+        <a href="#none"><i class="xi-bars"></i></a>
+      </div>
+    </header>
+    <div class="inner__login">
+      <div class="login">
+        <h3 class="login-text">로그인</h3>
+        <div class="login__btn">
+          <a data-alt="tab1" href="#none" class="active">잡화상점 회원</a>
+          <a data-alt="tab2" href="#none">비회원 주문조회</a>
+        </div>
+        <!-- tab menu -->
+        <div class="login__content">
+          <section id="tab1" class="login__content-membership active">
+            <form class="login__box">
+              <div class="login__box-id">
+                <i class="far fa-user"></i>
+                <input type="text" placeholder="아이디" />
+              </div>
+              <div class="login__box-psd">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="비밀번호" />
+              </div>
+              <div class="login__box-checkbox">
+                <div class="login__box-checkbox-id">
+                  <input type="checkbox" id="save-id" />
+                  <label for="save-id">아이디 저장</label>
+                </div>
+                <div class="lonin__box-checkbox-autolog">
+                  <input type="checkbox" id="autolog" />
+                  <label for="autolog">자동 로그인</label>
+                </div>
+              </div>
+              <input type="submit" value="로그인" />
+            </form>
+            <div class="login-search">
+              <a href="#none"><p class="login-search-id">아이디 찾기</p></a>
+              <a href="#none"><p class="login-search-psd">비밀번호 찾기</p></a>
+              <a href="#none"><p class="login-search-join">회원가입</p></a>
+            </div>
+            <div class="login__start">
+              <div class="login__start-kakao">
+                <a href="#none">카카오로 시작하기</a>
+              </div>
+              <p class="or">or</p>
+              <div class="login__start-other">
+                <div class="login__start-naver">
+                  <a href="#none"><img src="image/naver_icon.png" alt="" /></a>
+                </div>
+                <div class="login__start-apple">
+                  <a href="#none"><img src="image/apple_icon.png" alt="" /></a>
+                </div>
+                <div class="login__start-google">
+                  <a href="#none"><img src="image/google_icon.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="login__alert">
+              <p>기존 회원 안내사항</p>
+              <p>
+                1. 비밀번호 찾기에서 비밀번호 재설정 후 로그인 가능합니다.
+                <br />
+                2. 주문내역, 적립금 내역, 문의 내역등은 삭제되어 확인이
+                불가능합니다.
+              </p>
+            </div>
+          </section>
+          <section id="tab2" class="login__content-notmembership">
+            <form class="login__box">
+              <div class="login__box-id">
+                <i class="far fa-user"></i>
+                <input type="text" placeholder="주문번호 입력" />
+              </div>
+              <div class="login__box-psd">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="주문자명 입력" />
+              </div>
+              <input class="check-submit" type="submit" value="확인" />
+              <p class="alert">
+                ※ 주문번호를 잊으신 경우, 잡화상점 고객센터로 문의해주시기
+                바랍니다.
+              </p>
+              <div class="login__box-join">
+                <p>아직 잡화상점 회원이 아니신가요?</p>
+                <a href="#none">회원가입</a>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-inner">
+        <div class="logo">
+          <a href="#none">
+            <img src="image/logo3 copy 2.png" alt="" />
+          </a>
+        </div>
+        <div class="about">
+          <div class="about__notice">
+            <a href="#none"> About </a>
+            <a href="#none"> 공지사항 </a>
+            <a href="#none"> 이용약관 </a>
+            <a href="#none">
+              <b>개인정보처리방침</b>
+            </a>
+            <a href="#none"> 대량구매/제휴안내 </a>
+            <a href="#none">
+              <b>
+                <i class="fab fa-instagram fa-lg"></i>
+                @jutrong
+              </b>
+            </a>
+          </div>
+          <div class="about__content">
+            <p>상호 :(주)트롱</p>
+            <p>대표 : 이주현</p>
+            <p>사업자등록번호 : 120-87-65763</p>
+            <p>통신판매업신고번호 : 2021-서울송파-0515</p>
+            <p><a href="#none">사업자정보확인</a></p>
+            <p>대표 번호 : 010-5658-7133</p>
+            <p>이메일 : jutrong@naver.com</p>
+            <p>주소 : 서울특별시 송파구 위례성대로 2 장은빌딩</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js -->
+    <script src="script/jap.js"></script>
+  </body>
+</html>

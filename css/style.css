@@ -1,0 +1,48 @@
+/* font */
+@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet');
+
+/* components */
+@import "../css/component/nav.css";
+@import "../css/component/banner.css";
+@import "../css/component/footer.css";
+/* screnns */
+@import "../css/screen/main.css";
+@import "../css/screen/login.css";
+/* variables */
+@import "../css/variables.css";
+/* reset css */
+@import "../css/reset.css";
+body {
+  font-family: 'NanumSquareRound';
+  color: #222;
+  width: 100vw;
+}
+.inner {
+  width: 1200px;
+  margin: auto;
+}
+/* badge style */
+.badge {
+  font-size: 8px;
+  text-decoration: underline;
+  font-weight: 800;
+}
+.green, .best {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.green {
+  color: green;
+}
+.best {
+  color: darkblue;
+}
+.big {
+  bottom: 60px;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}

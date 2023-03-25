@@ -1,0 +1,15 @@
+.banner {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner__content {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+.banner__content img {
+  width: 100%;
+}
