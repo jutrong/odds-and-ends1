@@ -6,9 +6,6 @@
   width: 100vw;
   color: var(--dark-blue);
 }
-a {
-  color: var(--dark-blue);
-}
 .login {
   margin-top: 200px;
   width: 550px;
@@ -94,6 +91,7 @@ a {
 .login__box-psd {
   position: relative;
 }
+/* checkbox */
 .login__box-checkbox {
   display: flex;
   margin: 20px 0;
@@ -101,13 +99,42 @@ a {
 .login__box-checkbox div {
   margin: 0 10px;
 }
-.login__box-checkbox label {
-  font-size: 14px;
+input[type="checkbox"] {
+  position: absolute;
+  left: -3000%;
 }
-.login__box-checkbox-id input,
-.lonin__box-checkbox-autolog input {
-  width: 13px;
-  height: 13px;
+input[type="checkbox"] + label {
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+}
+input[type="checkbox"] + label::before { 
+  content: '';
+  position: relative;
+  border: 1px solid var(--gray);
+  width: 14px;
+  height: 14px;
+  top: 4px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.1s;
+  background: url(../../image/check3.png) no-repeat center;
+  background-size: 7px auto;
+}
+input[type="checkbox"]:checked + label::before {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+input[type="checkbox"]:checked + label::after {
+  content: '';
+  background: url(../../image/check2.png) no-repeat center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-size: 7px auto;
 }
 .login__box input[type='submit']{
   width: 100%;

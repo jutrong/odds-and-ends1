@@ -37,7 +37,7 @@ header {
   transition: 0.2s;
 }
 .header__navigation ul li:hover a {
-  color: #2ac1bc;
+  color: var(--green);
 }
 .header__login {
   flex: 2;
