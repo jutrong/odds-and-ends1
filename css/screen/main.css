@@ -1,9 +1,11 @@
 /* tab */
 input[name=tabmenu] {
   display: none;
+
 }
 .tab__inner {
   position: relative;
+  z-index: -1;
 }
 .tab__inner-tab {
   width: 100%;

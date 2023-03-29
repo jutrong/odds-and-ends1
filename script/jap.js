@@ -1,3 +1,29 @@
+// checkbox all select
+
+$('.checkbox-all').change(function(){
+  if(this.checked){
+    $('.checkbox-item:not(:checked)').prop('checked',true);
+    $('.register__chk-title').addClass('on')
+  }
+  else{
+    $('.checkbox-item:checked').prop('checked',false)
+    $('.register__chk-title').removeClass('on')
+  }
+});
+$('.checkbox-item').change(function(){
+  let allChecked = $('.checkbox-item:not(:checked)').length == 0;
+  if('.checkbox-item',allChecked){
+    $('.register__chk-title').addClass('on')
+    $('.checkbox-all').prop('checked',true)
+  }
+  else{
+    $('.register__chk-title').removeClass('on')
+    $('.checkbox-all').prop('checked',false)
+  }
+})
+
+
+// tab menu
 
 $('.login__btn a').click(function(){
   $(this).addClass('active')
@@ -104,5 +130,5 @@ memo.onmouseout= function(){
   memo.src = "image/memo1.png";
 }
 
-// login tabmenu
+
 
