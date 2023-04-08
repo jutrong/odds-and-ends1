@@ -1,0 +1,96 @@
+.membership {
+  display: flex;
+  justify-content: center;
+}
+.membership__input {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 280px;
+}
+.membership__input > div {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.membership__input > div span {
+  font-size: 18px;
+  flex: 2;
+  position: relative;
+}
+.membership__input > div span:after {
+  content: '*';
+  position: absolute;
+  color:royalblue;
+}
+.membership__input-phone span:after {
+  display: none;
+}
+.membership__input > div input {
+  border: 1px solid var(--gray);
+  flex: 6;
+  padding: 18px ;
+  border-radius: 5px;
+}
+.membership__input > div input:focus {
+  border: 1px solid var(--dark-blue);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.membership__input > div input::placeholder {
+  font-size: 15px;
+  color: var(--gray);
+}
+.membership__input-sex select {
+  flex: 6;
+  padding: 18px;
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+  font-size: 15px;
+  color: gray;
+}
+.membership__input h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: var(--dark-blue);
+}
+.id-pati {
+  display: flex;
+  width: 460px;
+  gap: 10px;
+}
+.id-pati input {
+  flex: 1;
+}
+.id-pati button {
+  flex: 2;
+  color: white;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.membership__input-btn {
+  display: flex;
+  justify-content: center;
+}
+.membership__input-btn button {
+  padding: 18px 120px;
+  margin: 40px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+.prevbtn {
+  border: 1px solid var(--dark-blue);
+  background-color: white;
+  color: var(--dark-blue);
+}
+.nextbtn {
+  border: 1px solid white;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.nextbtn:hover {
+  opacity: 0.9;  
+}

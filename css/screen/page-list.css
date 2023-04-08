@@ -1,0 +1,63 @@
+@import "../variables.css";
+
+body {
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  border-collapse: collapse;
+  width: 1000px;
+  border: 1px solid gray;
+}
+.list caption {
+  width: 400px;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.477);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 13px;
+  background-color: white;
+  border-radius: 5px;
+}
+.list caption h4 {
+  margin: 0;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.list caption span {
+  display: block;
+  color: gray;
+  margin-top: 10px;
+}
+.list caption p {
+  margin-top: 0;
+  color: gray;
+}
+.list th,
+.list td {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+  background-color: white;
+  font-size: 15px;
+}
+.list tr td:last-child {
+  font-size: 11px;
+}
+.list th {
+  background-color: var(--dark-blue);
+  color: white;
+  border: none;
+}
+.list td a:hover {
+  color: var(--dark--green);
+}
+.list .option {
+  width: 200px;
+}

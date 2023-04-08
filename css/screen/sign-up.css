@@ -39,11 +39,11 @@
   text-align: center;
   padding: 2px;
 }
-.chapter__1.on {
+.chapter div.on {
   background-color: var(--dark-blue);
   position: relative;
 }
-.chapter__1.on:after {
+.chapter div.on:after {
   content: '';
   position: absolute;
   background-color: var(--dark-blue);
@@ -53,16 +53,16 @@
   left: 50%;
   transform: rotate(45deg) translateX(-50%);
 }
-.chapter__1.on p {
+.chapter div.on p {
   color: white;
 }
-.chapter__1.on span {
+.chapter div.on span {
   background-color: white;
   color: var(--dark-blue);
 }
 /* register */
 .register {
-  height: 100vh;
+  height: 110vh;
   margin-top: 280px;
 }
 .register hr {

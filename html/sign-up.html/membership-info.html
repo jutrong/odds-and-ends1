@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>잡화상점 - 로그인</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!-- xeicon -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="head-top">
+        <div class="lnb">
+          <div class="lnb-left">
+            <a href="#none">매장안내</a>
+            <a href="#none">할인쿠폰</a>
+            <a href="#none">가맹문의</a>
+          </div>
+          <div class="lnb-right">
+            <div class="lnb-right-cart">
+              <a href="#none">
+                <span>0</span>
+                <i class="xi-briefcase"></i>
+                <p>장바구니</p>
+              </a>
+            </div>
+            <div class="lnb-right-mypage">
+              <a href="#none">
+                <i class="xi-user-o"></i>
+                <p>마이페이지</p>
+              </a>
+            </div>
+            <div class="lnb-right-login">
+              <a href="#none">
+                <i class="xi-lock-o"></i>
+                <p>로그인</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="inner">
+          <div class="header__logo">
+            <a href="">
+              <img src="../../image/logo3 copy 2.png" alt="" />
+            </a>
+          </div>
+          <div class="header__navigation">
+            <ul>
+              <li><a href="#none">전체</a></li>
+              <li><a href="#none">문구</a></li>
+              <li><a href="#none">리빙</a></li>
+              <li><a href="#none">책</a></li>
+              <li><a href="#none">콜라보레이션</a></li>
+              <li><a href="#none">명예의 전당</a></li>
+            </ul>
+          </div>
+          <div class="header__login">
+            <a href="#none"><i class="xi-search"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="chapter">
+      <div class="chapter__1">
+        <span>01</span>
+        <p>이용약관&본인인증</p>
+      </div>
+      <div class="chapter__2 on">
+        <span>02</span>
+        <p>정보입력</p>
+      </div>
+      <div class="chapter__3">
+        <span>03</span>
+        <p>완료</p>
+      </div>
+    </div>
+    <div class="membership">
+      <div class="inner">
+        <form class="membership__input">
+          <h1>회원정보 입력</h1>
+          <div class="membership__input-name">
+            <span class="name">이름</span>
+            <input type="text" placeholder="이름을 입력하시오." required />
+          </div>
+          <div class="membership__input-sex">
+            <span class="sex">성별</span>
+            <select name="sex" required>
+              <option value="''" selected id="sex-selected">
+                성별을 고르시오
+              </option>
+              <option value="남자">남자</option>
+              <option value="여자">여자</option>
+            </select>
+          </div>
+          <div class="membership__input-birth">
+            <span class="birth">생년원일</span>
+            <input type="text" placeholder="생년원일을 입력하시오." required />
+          </div>
+          <div class="membership__input-id">
+            <span class="id">아이디</span>
+            <div class="id-pati">
+              <input type="text" placeholder="아이디를 입력하시오." required />
+              <button class="chk-id">아이디 중복확인</button>
+            </div>
+          </div>
+          <div class="membership__input-psd">
+            <span class="psd">비밀번호</span>
+            <input
+              type="password"
+              placeholder="비밀번호를 입력하시오.(8자 이상 영문 대/소문자,숫자,특수문자 조합)"
+              minlength="8"
+              required
+            />
+          </div>
+          <div class="membership__input-psd2">
+            <span class="psd2">비밀번호확인</span>
+            <input
+              type="password"
+              placeholder="비밀번호 재입력."
+              minlength="8"
+              required
+            />
+          </div>
+          <div class="membership__input-email">
+            <span class="email">이메일</span>
+            <input type="email" placeholder="이메일을 입력하시오." required />
+          </div>
+          <div class="membership__input-phone">
+            <span class="phone">휴대번호</span>
+            <input type="text" placeholder="번호를 입력하시오." required />
+          </div>
+          <div class="membership__input-btn">
+            <button class="prevbtn">이전</button>
+            <button class="nextbtn">다음</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-inner">
+        <div class="logo">
+          <a href="#none">
+            <img src="../../image/logo3 copy 2.png" alt="" />
+          </a>
+        </div>
+        <div class="about">
+          <div class="about__notice">
+            <a href="#none"> About </a>
+            <a href="#none"> 공지사항 </a>
+            <a href="#none"> 이용약관 </a>
+            <a href="#none">
+              <b>개인정보처리방침</b>
+            </a>
+            <a href="#none"> 대량구매/제휴안내 </a>
+            <a href="#none">
+              <b>
+                <i class="fab fa-instagram fa-lg"></i>
+                @jutrong
+              </b>
+            </a>
+          </div>
+          <div class="about__content">
+            <p>상호 :(주)트롱</p>
+            <p>대표 : 이주현</p>
+            <p>사업자등록번호 : 120-87-65763</p>
+            <p>통신판매업신고번호 : 2021-서울송파-0515</p>
+            <p><a href="#none">사업자정보확인</a></p>
+            <p>대표 번호 : 010-5658-7133</p>
+            <p>이메일 : jutrong@naver.com</p>
+            <p>주소 : 서울특별시 송파구 위례성대로 2 장은빌딩</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js -->
+    <script src="../../script/jap.js"></script>
+  </body>
+</html>
