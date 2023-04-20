@@ -1,0 +1,42 @@
+.success-box {
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+.chk-icon {
+  background-color: var(--dark-blue);
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.success-box__content {
+  text-align: center;
+}
+.success-box__content h2 {
+  font-size: 30px;
+}
+.success-box__content p {
+  margin-top: 10px;
+}
+.success-box__content-service {
+  width: 480px;
+  background-color: var(--gray);
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6em;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+.comfirm {
+  padding: 10px 100px;
+  border-radius: 5px;
+  background-color: var(--dark-blue);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

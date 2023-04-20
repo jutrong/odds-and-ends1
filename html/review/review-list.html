@@ -67,84 +67,82 @@
         </div>
       </nav>
     </header>
-    <div class="chapter">
-      <div class="chapter__1">
-        <span>01</span>
-        <p>이용약관&본인인증</p>
-      </div>
-      <div class="chapter__2 on">
-        <span>02</span>
-        <p>정보입력</p>
-      </div>
-      <div class="chapter__3">
-        <span>03</span>
-        <p>완료</p>
+    <div class="topbar">
+      <div class="inner">
+        <ul>
+          <li class="product-content">상품상세정보</li>
+          <li class="product-review on">상품후기</li>
+          <li class="product-ask">상품문의</li>
+          <li class="product-guide">배송/교환/환불 안내</li>
+        </ul>
       </div>
     </div>
-    <div class="membership">
-      <div class="inner">
-        <form class="membership__input">
-          <h1>회원정보 입력</h1>
-          <div class="membership__input-name">
-            <span class="name">이름</span>
-            <input type="text" placeholder="이름을 입력하시오." required />
-          </div>
-          <div class="membership__input-sex">
-            <span class="sex">성별</span>
-            <select name="sex" required>
-              <option value="''" selected id="sex-selected">
-                성별을 고르시오
-              </option>
-              <option value="남자">남자</option>
-              <option value="여자">여자</option>
-            </select>
-          </div>
-          <div class="membership__input-birth">
-            <span class="birth">생년원일</span>
-            <input
-              type="text"
-              placeholder="생년원일을 입력하시오.(6자리)"
-              required
-            />
-          </div>
-          <div class="membership__input-id">
-            <span class="id">아이디</span>
-            <div class="id-pati">
-              <input type="text" placeholder="아이디를 입력하시오." required />
-              <button class="chk-id">아이디 중복확인</button>
+    <div class="review">
+      <div class="review__header">
+        <p>상품후기 <span>( 1 )</span></p>
+      </div>
+      <div class="review__satisfaction">
+        <p>상품만족도</p>
+        <p>
+          <!-- star -->
+        </p>
+        <p>
+          <!-- 점수 -->
+        </p>
+      </div>
+      <div class="review__photo">
+        <div class="prev__btn">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <ul>
+          <li>
+            <a href="#"><img src="../../image/odd.jpg" alt="" /></a>
+          </li>
+        </ul>
+        <div class="next__btn">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="review__menu">
+        <div class="review__menu-list">
+          <span class="on">전체 (1)</span>
+          <span>포토 (1)</span>
+          <span>일반 (0)</span>
+        </div>
+        <div class="review__menu-select">
+          <select name="" id="">
+            <option value="선택">선택</option>
+            <option value="최신순" selected>최신순</option>
+            <option value="별점순">별점순</option>
+          </select>
+        </div>
+      </div>
+      <div class="review__list">
+        <div class="review__list-content">
+          <div class="review__list-content-top">
+            <div class="review__list-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
+            <div class="review__list-id">jutr***</div>
+            <div class="review__list__date">2023.04.26</div>
           </div>
-          <div class="membership__input-psd">
-            <span class="psd">비밀번호</span>
-            <input
-              type="password"
-              placeholder="비밀번호를 입력하시오.(8자 이상 영문 대/소문자,숫자,특수문자 조합)"
-              minlength="8"
-              required
-            />
+          <div class="review__list-content-bottom">
+            책상을 거실에 놔두니 분위기가 확 사네요
           </div>
-          <div class="membership__input-psd2">
-            <span class="psd2">비밀번호확인</span>
-            <input
-              type="password"
-              placeholder="비밀번호 재입력"
-              minlength="8"
-              required
-            />
-          </div>
-          <div class="membership__input-email">
-            <span class="email">이메일</span>
-            <input type="email" placeholder="이메일을 입력하시오." required />
-          </div>
-          <div class="membership__input-phone">
-            <span class="phone">휴대번호</span>
-            <input type="text" placeholder="번호를 입력하시오." required />
-          </div>
-          <div class="membership__input-btn">
-            <button class="prevbtn">이전</button>
-            <button class="nextbtn">다음</button>
-          </div>
-        </form>
+          <div class="review__list-content-more">더보기</div>
+        </div>
+        <div class="review__list-img">
+          <a href="#"><img src="../../image/odd.jpg" alt="" /></a>
+        </div>
+      </div>
+      <div class="review__page-number">
+        <i class="fas fa-angle-left"></i>
+        <span>1</span>
+        <i class="fas fa-angle-right"></i>
       </div>
     </div>
     <footer>
@@ -191,6 +189,5 @@
       crossorigin="anonymous"
     ></script>
     <!-- js -->
-    <script src="../../script/jap.js"></script>
   </body>
 </html>

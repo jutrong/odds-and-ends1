@@ -1,0 +1,33 @@
+/* membership-info filled */
+
+.membership__input-psd2 + p,
+.membership__input-id + p {
+  font-size: 12px;
+  margin-left: 150px;
+  margin-top: -25px;
+  color: crimson;
+}
+.membership__input-id input.filled,
+.membership__input-psd input.filled,
+.membership__input-psd2 input.filled {
+  animation: filled 0.85s linear ;
+  outline: 1px solid rgba(220, 20, 60, 0.31);
+  background-color: rgba(220, 20, 60, 0.062);
+}
+@keyframes filled {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-15px);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  75% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}

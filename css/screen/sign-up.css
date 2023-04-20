@@ -62,8 +62,8 @@
 }
 /* register */
 .register {
-  height: 110vh;
-  margin-top: 280px;
+  height: 130vh;
+  margin-top: 200px;
 }
 .register hr {
   margin-top: 25px;
@@ -166,3 +166,4 @@
   background-color: black;
   color: white;
 }
+
