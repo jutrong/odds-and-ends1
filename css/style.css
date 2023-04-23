@@ -5,6 +5,8 @@
 @import "../css/component/nav.css";
 @import "../css/component/banner.css";
 @import "../css/component/footer.css";
+@import "../css/component/page-number.css";
+@import "../css/component/prev-next-btn.css";
 /* screnns */
 @import "../css/screen/main.css";
 @import "../css/screen/login.css";
@@ -14,6 +16,7 @@
 @import "../css/screen/sign-up-success.css";
 @import "../css/screen/sign-up-filled.css";
 @import "../css/screen/review-list.css";
+@import "../css/screen/inquiry-list.css";
 /* variables */
 @import "../css/variables.css";
 /* reset css */

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>잡화상점 - 회원가입 정보입력</title>
+    <title>잡화상점 - 상품문의</title>
     <link rel="stylesheet" href="../../css/style.css" />
     <!-- xeicon -->
     <link
@@ -71,79 +71,85 @@
       <div class="inner">
         <ul>
           <li class="product-content">상품상세정보</li>
-          <li class="product-review on">상품후기</li>
-          <li class="product-ask">상품문의</li>
+          <li class="product-review">상품후기</li>
+          <li class="product-ask on">상품문의</li>
           <li class="product-guide">배송/교환/환불 안내</li>
         </ul>
       </div>
     </div>
-    <div class="review">
-      <div class="review__header">
-        <p>상품후기 <span>( 1 )</span></p>
-      </div>
-      <div class="review__satisfaction">
-        <p>상품만족도</p>
-        <p>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+    <div class="inquiry-list">
+      <div class="inquiry-list__guide">
+        <h6>상품문의</h6>
+        <span>
+          ※ 상품에 관한 문의가 아닌 배송,결제,교환/변경,반품/환불에 대한 문의는 고객센터1:1문의를 이용해 주세요.
+        </span>
+        <p id="popup-btn" class="inquiry-list__modal">
+          상품문의하기
         </p>
-        <p>5/<span>5</span></p>
       </div>
-      <div class="review__photo">
-        <div class="prev__btn">
-          <i class="fas fa-arrow-left"></i>
-        </div>
-        <ul>
-          <li>
-            <a href="#"><img src="../../image/odd.jpg" alt="" /></a>
-          </li>
-        </ul>
-        <div class="next__btn">
-          <i class="fas fa-arrow-right"></i>
-        </div>
-      </div>
-      <div class="review__menu">
-        <div class="review__menu-list">
-          <span class="on">전체 (1)</span>
-          <span>포토 (1)</span>
-          <span>일반 (0)</span>
-        </div>
-        <div class="review__menu-select">
-          <select name="" id="">
-            <option value="선택">선택</option>
-            <option value="최신순" selected>최신순</option>
-            <option value="별점순">별점순</option>
-          </select>
-        </div>
-      </div>
-      <div class="review__list">
-        <div class="review__list-content">
-          <div class="review__list-content-top">
-            <div class="review__list-star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <div class="review__list-id">jutr***</div>
-            <div class="review__list__date">2023.04.26</div>
-          </div>
-          <div class="review__list-content-bottom">
-            책상을 거실에 놔두니 분위기가 확 사네요
-          </div>
-          <div class="review__list-content-more">더보기</div>
-        </div>
-        <div class="review__list-img">
-          <a href="#"><img src="../../image/odd.jpg" alt="" /></a>
-        </div>
-      </div>
+      <table class="inquiry-list__table">
+        <tr>
+          <th>번호</th>
+          <th>문의유형</th>
+          <th>답변상태</th>
+          <th>제목</th>
+          <th>작성자</th>
+          <th>등록일</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>상품문의</td>
+          <td>답변완료</td>
+          <td><i class="fas fa-lock"></i>비밀글 입니다.</td>
+          <td>jut****</td>
+          <td>2023.04.23</td>
+          <td><i class="fas fa-sort-down"></i></td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>상품문의</td>
+          <td>답변대기</td>
+          <td><i class="fas fa-lock"></i>비밀글 입니다.</td>
+          <td>jut****</td>
+          <td>2023.04.23</td>
+          <td><i class="fas fa-sort-down"></i></td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>상품문의</td>
+          <td>답변대기</td>
+          <td><i class="fas fa-lock"></i>비밀글 입니다.</td>
+          <td>jut****</td>
+          <td>2023.04.19</td>
+          <td><i class="fas fa-sort-down"></i></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>상품문의</td>
+          <td>답변대기</td>
+          <td><i class="fas fa-lock"></i>비밀글 입니다.</td>
+          <td>jut****</td>
+          <td>2023.04.15</td>
+          <td><i class="fas fa-sort-down"></i></td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>상품문의</td>
+          <td>답변대기</td>
+          <td><i class="fas fa-lock"></i>비밀글 입니다.</td>
+          <td>jut****</td>
+          <td>2023.04.10</td>
+          <td><i class="fas fa-sort-down"></i></td>
+        </tr>
+      </table>
       <div class="page-number">
         <i class="fas fa-angle-left"></i>
         <span class="on">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
         <i class="fas fa-angle-right"></i>
       </div>
     </div>
@@ -183,9 +189,46 @@
         </div>
       </div>
     </footer>
-
-
-    </div>
+    <!-- modal -->
+    <div id="inquiry__modal-overlay">
+      <div id="inquiry__modal__window">
+        <div class="inquiry__modal__header">
+          <span>상품 문의하기</span>
+        </div>
+        <div class="inquiry__modal__content">
+          <div class="inquiry__modal__product">
+            <div class="inquiry__modal__product-img">
+              <img src="../../image/odd.jpg" alt="">
+            </div>
+            <div class="inquiry__modal__product-name">
+              아기자기 안락한 느낌을 주는 테이블
+            </div>
+          </div>
+          <div class="inquiry__modal__question">
+            <span>질문유형</span>
+            <span>상품문의</span>
+          </div>
+          <div class="inquiry__modal__title">
+            <span>제목</span>
+            <input type="text" placeholder="제목을 입력해 주세요.">
+          </div>
+          <div class="inquiry__modal__fill">
+            <span>내용</span>
+            <input type="text" placeholder="최소 10자 이상 작성해주세요.">
+          </div>
+          <div class="inquiry__modal__secret">
+            <input id="sercet" type="checkbox">
+            <label for="secret">비밀글입니다.</label>
+          </div>
+          <div class="prev-next-btn">
+            <button class="prevbtn">이전</button>
+            <button class="nextbtn">다음</button>
+          </div>
+        </div>
+        <div class="inquiry__modal-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <!-- fontawesome -->
@@ -194,5 +237,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- js -->
+    <script src="../../script/modal.js"></script>
   </body>
 </html>
